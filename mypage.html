@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>심민식 포트폴리오</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #222;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    header {
+      background-color: #03c75a;
+      padding: 1rem 0;
+      color: white;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    .nav-menu {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      padding: 0;
+      margin: 0;
+    }
+
+    .nav-menu li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .nav-menu li a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem 0;
+    }
+
+    .section {
+      margin-bottom: 3rem;
+    }
+
+    .section h2 {
+      font-size: 1.8rem;
+      border-bottom: 2px solid #03c75a;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background-color: #e9ecef;
+      text-align: center;
+      padding: 1rem 0;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .contact a {
+      color: #03c75a;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .github-btn {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.4rem 0.8rem;
+      background-color: #24292e;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      transition: background-color 0.2s ease;
+    }
+
+    .github-btn:hover {
+      background-color: #444c56;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">심민식 포트폴리오</h1>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#about">소개</a></li>
+          <li><a href="#projects">프로젝트</a></li>
+          <li><a href="#resume">이력</a></li>
+          <li><a href="#contact">연락처</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>소개</h2>
+        <p>안녕하세요. 동양미래대학교 컴퓨터소프트웨어공학과에 재학 중인 <strong>심민식</strong>입니다. 소프트웨어 개발과 웹 프로그래밍에 관심이 많으며, 다양한 프로젝트 경험을 통해 실무 능력을 키우고 있습니다.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>프로젝트 경험</h2>
+        <ul>
+          <li><strong>EXPO 프로젝트</strong> - 현재 진행 중인 팀 프로젝트</li>
+          <li><strong>React 프로젝트</strong> - 프론트엔드 프레임워크를 활용한 UI 개발 경험</li>
+          <li>
+            <strong>웹프로그래밍 기초 프로젝트</strong> - HTML/CSS/JS를 이용한 웹페이지 구현<br/>
+            <a href="https://github.com/simminsik/WebPrograming" target="_blank" class="github-btn">🔗 GitHub 저장소 보기</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="resume" class="section">
+      <div class="container">
+        <h2>이력</h2>
+        <p><strong>학교:</strong> 동양미래대학교<br/>
+           <strong>학과:</strong> 컴퓨터소프트웨어공학과<br/>
+           <strong>학년:</strong> 재학 중</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>연락처</h2>
+        <p><strong>전화:</strong> 010-8548-6966</p>
+        <p><strong>이메일:</strong> <a href="mailto:ms03zzang@dongyang.ac.kr">ms03zzang@dongyang.ac.kr</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/simminsik" target="_blank">https://github.com/simminsik</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 심민식. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
